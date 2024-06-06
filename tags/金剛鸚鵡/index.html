@@ -34,7 +34,7 @@
 <meta name="generator" content="Hexo 7.1.1"></head>
 
 <body>
-  <div id="container">
+  <div id="container" class="">
     <div id="wrap">
       <header id="header">
   <div id="banner"></div>
@@ -55,7 +55,7 @@
         
           <a class="main-nav-link" href="/jingblog/">首頁</a>
         
-          <a class="main-nav-link" href="/jingblog/archives">文章</a>
+          <a class="main-nav-link" href="/jingblog/blog">文章</a>
         
           <a class="main-nav-link" href="/jingblog/about">關於我</a>
         
@@ -195,7 +195,7 @@
   
     <a href="/jingblog/" class="mobile-nav-link">首頁</a>
   
-    <a href="/jingblog/archives" class="mobile-nav-link">文章</a>
+    <a href="/jingblog/blog" class="mobile-nav-link">文章</a>
   
     <a href="/jingblog/about" class="mobile-nav-link">關於我</a>
   
@@ -220,5 +220,18 @@
 
 
   </div>
+
+  <style>
+    .fullPage #main {
+      width: 100%;
+      float: none;
+    }
+
+    .fullPage .article-meta,
+    .fullPage .article-header,
+    .fullPage .article-footer {
+      display: none;
+    }
+  </style>
 </body>
 </html>
